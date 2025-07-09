@@ -22,7 +22,7 @@ class MyGame extends FlameGame with SingleGameInstance {
     world.add(
       RectangleComponent(
         size: size,
-        paint: Paint()..color = Colors.white.withAlpha(200),
+        paint: Paint()..color = Colors.white.withAlpha(100),
         anchor: Anchor.center,
         position: size / 2,
         children: [
